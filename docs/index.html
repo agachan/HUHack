@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>HUHack 食堂 ガチャ</title>
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <main id="root"></main>
+
+    <template id="toppage">
+        <div id="top">
+            <h1>広島大学食堂ガチャ</h1>
+            <div class="image">
+                <a href="#stage1">
+                    <div class="move">
+                        <div class="bird"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </template>
+
+    <template id="stage1page">
+        <div id="stage1">
+            <h1>ガチャを引こう！！</h1>>
+            <div class="image">
+                <a href="#stage2">
+                    <div class="circlePositioner">
+                        <div class="mainCircle">
+                    
+                          <div class="spinningContainer">
+                    
+                            <div class="leftContainer"></div>
+                            <div class="rightContainer"></div>
+                    
+                          </div>
+                    
+                          <div class="overlay">
+                    
+                            <p>Button</p>
+                    
+                          </div>
+                        </div>
+                      </div>
+                </a>
+            </div>
+        </div>
+    </template>
+    <template id="stage2page">
+        <div id="stage2">
+        <h1>！！結果！！</h1>>
+            <div class="container">
+                <div id="card1" class="card">
+                    <div class="front">?</div>
+                    <div class="back"></div>
+                    <div class="anime">
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <img class="rarity slide" />
+                    </div>
+                </div>
+                <div id="card2"  class="card">
+                    <div class="front">?</div>
+                    <div class="back"></div>
+                    <div class="anime">
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <img class="rarity slide" />
+                    </div>
+                </div>
+                <div id="card3"  class="card">
+                    <div class="front">?</div>
+                    <div class="back"></div>
+                    <div class="anime">
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <img class="rarity slide" />
+                    </div>
+                </div>
+                <div id="card4" class="card">
+                    <div class="front">?</div>
+                    <div class="back"></div>
+                    <div class="anime">
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <img class="rarity slide" />
+                    </div>
+                </div>
+            </div>
+            <div id="sumprice" class="description"></div>
+            <div class="description">ガチャの結果は...？</div>
+            <a href="#stage1">
+                <div class="description">
+                    もう一度！
+                </div>
+            </a>
+        </div>
+    </template>
+
+    <script src="./data.js" type="module"></script>
+    <script src="./main.js" type="module"></script>
+</body>
+
+</html>
