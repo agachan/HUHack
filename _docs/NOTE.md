@@ -1,2 +1,3 @@
 - 食堂 https://www.irasutoya.com/2015/12/blog-post_372.html
 - button https://www.irasutoya.com/2016/04/blog-post_63.html
+- rarity https://www.irasutoya.com/2016/12/blog-post_24.html
