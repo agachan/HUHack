@@ -125,6 +125,7 @@ function onRouteChanged() {
             var clone = document.importNode(tmp.content, true);
             console.log(clone);
             routerView.appendChild(clone);
+            document.querySelector('.front').addEventListener('click', flip);
             break;
         default:
             removeall()
@@ -138,3 +139,8 @@ const redirectToHome = () => {
 }
 window.addEventListener("hashchange", onRouteChanged);
 window.addEventListener('DOMContentLoaded', redirectToHome);
+
+const flip = (e) => {
+    console.log(e.target)
+}
+
