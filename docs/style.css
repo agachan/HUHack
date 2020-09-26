@@ -1,8 +1,18 @@
 * {
     box-sizing: border-box;
 }
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: #FF8C00;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 body #root {
-	overflow: hidden;
 	height: 100%;
 }
 
@@ -83,6 +93,8 @@ body #root {
     left: 0;
   }
 .front {
+	padding: 40px;
+	font-size: medium;
     text-align: center;
     transform: rotateY(180deg);
   background-color: lightblue;
@@ -116,3 +128,271 @@ body #root {
         transform: rotateY(180deg);
     }
 }
+
+.anime {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	height: 50%;
+	width: 100%;
+	background-color: transparent;
+	z-index: 3;
+	transform: rotateY(180deg);
+	overflow: hidden;
+}
+.slide {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	transform: translateX(-100%);
+}
+#card1 > .anime > .slide:nth-child(1){
+	background-color: tomato;
+	animation: lefter 0.2s ease-in 2s forwards;
+}
+#card1 > .anime >  .slide:nth-child(2){
+	background-color: green;
+	animation: lefter 0.2s ease-in 2.1s forwards;
+
+}
+#card1 > .anime >  .slide:nth-child(3){
+	background-color: rebeccapurple;
+	animation: lefter 0.2s ease-in 2.2s forwards;
+
+}
+#card1 > .anime >  .slide:nth-child(4){
+	background-color: white;
+	animation: lefter 0.2s ease-in 2.3s forwards;
+
+}
+
+#card2 > .anime > .slide:nth-child(1){
+	background-color: tomato;
+	animation: lefter 0.2s ease-in 3s forwards;
+}
+#card2 > .anime >  .slide:nth-child(2){
+	background-color: green;
+	animation: lefter 0.2s ease-in 3.1s forwards;
+
+}
+#card2 > .anime >  .slide:nth-child(3){
+	background-color: rebeccapurple;
+	animation: lefter 0.2s ease-in 3.2s forwards;
+
+}
+#card2 > .anime >  .slide:nth-child(4){
+	background-color: white;
+	animation: lefter 0.2s ease-in 3.3s forwards;
+
+}
+#card3 > .anime > .slide:nth-child(1){
+	background-color: tomato;
+	animation: lefter 0.2s ease-in 4s forwards;
+}
+#card3 > .anime >  .slide:nth-child(2){
+	background-color: green;
+	animation: lefter 0.2s ease-in 4.1s forwards;
+
+}
+#card3 > .anime >  .slide:nth-child(3){
+	background-color: rebeccapurple;
+	animation: lefter 0.2s ease-in 4.2s forwards;
+
+}
+#card3 > .anime >  .slide:nth-child(4){
+	background-color: white;
+	animation: lefter 0.2s ease-in 4.3s forwards;
+
+}
+#card4 > .anime > .slide:nth-child(1){
+	background-color: tomato;
+	animation: lefter 0.2s ease-in 5s forwards;
+}
+#card4 > .anime >  .slide:nth-child(2){
+	background-color: green;
+	animation: lefter 0.2s ease-in 5.1s forwards;
+
+}
+#card4 > .anime >  .slide:nth-child(3){
+	background-color: rebeccapurple;
+	animation: lefter 0.2s ease-in 5.2s forwards;
+
+}
+#card4 > .anime >  .slide:nth-child(4){
+	background-color: white;
+	animation: lefter 0.2s ease-in 5.3s forwards;
+
+}
+
+
+
+@keyframes lefter {
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+.bird {
+    background: url("./assets/syokudo.png");
+    width: 400px;
+    height: 400.6px;
+  }
+  
+  
+  .move {
+    position: relative;
+    top: 50%;
+    left: 0%;
+    will-change: transform;
+    animation: move 5s linear infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateY(0vh) translateX(10vw) scale(1.0);
+    }
+    45% {
+        transform: translateY(0vh) translateX(50vw) scale(1.0);
+      }
+      50% {
+        transform: translateY(0vh) translateX(50vw) scale(1.0);
+      }
+      95% {
+        transform: translateY(0vh) translateX(10vw) scale(1.0);
+      }
+    100% {
+        transform: translateY(0vh) translateX(10vw) scale(1.0);
+      }
+  }
+  
+  
+    
+    .circlePositioner {
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+      text-align: center;
+      margin-top: 150px;
+      background-color: #fff;
+    }
+    
+    .mainCircle {
+      background-color: rgba(190, 134, 200,1.4);
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      display: inline-block;
+      overflow: hidden;
+      cursor: pointer;
+      opacity: .99;
+      transition: all 1s ease-in-out;
+    }
+    
+    .spinningContainer {
+      background-color: #efefef;
+      height: 50px;
+      width: 100%;
+      margin-top: 75px;
+      position: relative;
+      animation: mymoveR 1s ease-in-out;
+      transform: scaleY(2);
+      transition: all 2s cubic-bezier(.18, 1.51, .85, 1.4);
+    }
+    
+    .mainCircle:hover .overlay {
+      background-color: #7C9FAB;
+      transition: all .3s ease-in-out;
+    }
+    
+    .mainCircle:hover .overlay p {
+      color: rgba(160, 212, 104, 0.79);
+      transition: all .3s ease-in-out;
+    }
+    
+    .mainCircle:hover .spinningContainer {
+      -webkit-filter: blur(5px);
+      animation: mymove 1s cubic-bezier(1, .22, 1, .92), myscale 2s 1s ease-in-out;
+    }
+    
+    @keyframes mymove {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(1080deg);
+      }
+    }
+    
+    @keyframes mymoveR {
+      from {
+        transform: rotate(1080deg);
+      }
+      to {
+        transform: rotate(0deg);
+      }
+    }
+    
+    @keyframes myscale {
+      0% {
+        transform: scaleY(2);
+      }
+      25% {
+        transform: scaleY(2.5);
+      }
+      50% {
+        transform: scaleY(3);
+      }
+      75% {
+        transform: scaleY(3.5);
+      }
+      100% {
+        transform: scaleY(4);
+      }
+    }
+    
+    .mainCircle:hover {
+      background-color: white;
+      transition: all 1s ease-in-out;
+      transition-delay: .8s;
+    }
+    
+    .leftContainer {
+      background-color: rgba(160, 212, 104, 0.79);
+      height: 50px;
+      width: 50px;
+      float: left;
+    }
+    
+    .rightContainer {
+      background-color: rgba(160, 212, 104, 0.79);
+      height: 50px;
+      width: 50px;
+      float: right;
+    }
+    
+    .overlay {
+      background-color: #46626B;
+      height: 190px;
+      width: 190px;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -120px;
+      border-radius: 50%;
+      transition: all .3s ease-in-out;
+    }
+    
+    .overlay p {
+      position: relative;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 39%;
+      display: inline-block;
+      font-family: 'Sigmar One', cursive;
+      font-size: 16pt;
+      transition: all .3s ease-in-out;
+    }
+
