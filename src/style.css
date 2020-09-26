@@ -1,0 +1,15 @@
+#top {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+#title {
+    text-align: center;
+}
+#img {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
