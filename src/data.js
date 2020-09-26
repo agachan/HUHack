@@ -202,7 +202,7 @@ const a = [{
     "type":"Side",
     "menu":"巣ごもり卵",
     "rarity":"N",
-    "price":
+    "price":100
 },           {
     "type":"Side",
     "menu":"夏野菜と昆布の和物",
@@ -226,12 +226,12 @@ const a = [{
 },          {
     "type":"Side",
     "menu":"",
-    "rarity":"",
+    "rarity":"N",
     "price":80
 },          {
     "type":"Side",
     "menu":"",
-    "rarity":"",
+    "rarity":"N",
     "price":100
 },         
            
@@ -263,7 +263,7 @@ const a = [{
     "type":"LimitedTime-Rice0",
     "menu":"キムチ冷麺",
     "rarity":"SR",
-    "price":
+    "price":451
 },
           {
     "type":"LimitedTime-Rice0",
@@ -319,6 +319,7 @@ const a = [{
     "menu":"牛肉とエリンギのハッシュドビーフ",
     "rarity":"SR",
     "price":330
+
 }];
 
 export {a};
