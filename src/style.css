@@ -224,6 +224,28 @@ body #root {
 
 }
 
+#sumprice {
+	position: absolute;
+	top: calc(50%);
+	height: 100px;
+	left: calc(50%);
+	width: 400px;
+	font-weight: bold;
+	font-size: x-large;
+	transform: scale(0);
+	animation: bigger 1s ease 5.6s forwards;
+}
+@keyframes bigger {
+	0% {
+		transform: scale(0);
+	}
+	75% {
+		transform: scale(10);
+	}
+	100% {
+		transform: scale(2);
+	}
+}
 
 
 @keyframes lefter {

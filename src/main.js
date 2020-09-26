@@ -121,6 +121,12 @@ function onRouteChanged() {
         case "#stage2":
             removeall();
             menus = selectMenu();
+            let sum = 0;
+            for (let el of menus){
+                console.log(el.price)
+                sum += el.price;
+            }
+            console.log(sum)
             var tmp = document.querySelector("#stage2page");
             var clone = document.importNode(tmp.content, true);
             clone.querySelector('#card1').querySelector('.front').innerText = menus[0].menu;
@@ -135,6 +141,7 @@ function onRouteChanged() {
             }else{
                 clone.querySelector('#card4').classList.add("transparent")
             }
+            clone.querySelector('#sumprice').innerText = `お値段 ${sum} 円！！！！`;
             console.log(clone);
             routerView.appendChild(clone);
             // document.querySelector('.front').addEventListener('click', flip);
