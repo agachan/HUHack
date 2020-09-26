@@ -1,4 +1,4 @@
-const a = {
+const a = [{
     "type":0
     "menu":"カレー"
     "size":1
@@ -22,6 +22,6 @@ const a = {
 },
 {
     
-};
+}];
 
 export {a};
