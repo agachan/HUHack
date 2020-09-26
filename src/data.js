@@ -2,7 +2,7 @@ const a = [{
     "type":"Rice0",
     "menu":"マイルドカレー",
     "rarity":"",
-    "price":,
+    "price": ""
 },
            {
     "type":"Rice0",
