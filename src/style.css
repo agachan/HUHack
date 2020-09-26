@@ -61,6 +61,7 @@ body #root {
   }
 .container {
 	margin: auto;
+	padding-top: 40px;
 	justify-content: center;
 	background-color: #fff;
 	display: grid;
@@ -233,6 +234,7 @@ body #root {
 	font-size: x-large;
 	transform: scale(0);
 	animation: bigger 1s ease 5.6s forwards;
+	z-index: 5;
 }
 @keyframes bigger {
 	0% {
