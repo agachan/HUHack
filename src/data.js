@@ -1,253 +1,578 @@
-const a = [{
+const a = [
+{
     "type":"Rice0",
     "menu":"マイルドカレー",
     "rarity":"R",
     "price":300
 },
-           {
+{
     "type":"Rice0",
     "menu":"カレーライス",
     "rarity":"R",
     "price":300
 },
-           {
+{
     "type":"Rice0",
     "menu":"塩豚カルビ丼",
     "rarity":"SR",
     "price":400
 },
-           {
+{
     "type":"Rice0",
     "menu":"炭火焼き鳥丼",
     "rarity":"SR",
     "price":400
 },
-           {
+{
     "type":"Rice0",
     "menu":"照り焼きチキンカツ丼",
     "rarity":"SR",
     "price":400
 },
-           {
+{
     "type":"Rice0",
     "menu":"牛丼",
     "rarity":"R",
     "price":400
 },
-           {
+{
     "type":"Rice0",
     "menu":"洋食屋さんのハヤシライス",
     "rarity":"SR",
     "price":400
 },
-           {
+{
     "type":"Rice0",
     "menu":"チキンカツ卵とじ丼",
     "rarity":"SR",
     "price":400
 },
-           {
+{
     "type":"Rice0",
     "menu":"麻婆丼",
     "rarity":"R",
     "price":400
 },
-           {
+{
     "type":"Rice0",
     "menu":"肉そば",
     "rarity":"SR",
     "price":400
 },
-           {
+{
     "type":"Rice0",
     "menu":"肉うどん",
     "rarity":"SR",
     "price":300
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"かけそば",
     "rarity":"N",
     "price":200
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"かけうどん",
     "rarity":"N",
     "price":200
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"若布そば",
     "rarity":"R",
     "price":200
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"若布うどん",
     "rarity":"R",
     "price":200
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"きつねそば",
     "rarity":"R",
     "price":300
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"天ぷらそば",
     "rarity":"R",
     "price":200
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"天ぷらうどん",
     "rarity":"R",
     "price":200
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"醤油ラーメン",
     "rarity":"R",
     "price":200
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"豚骨ラーメン",
     "rarity":"SR",
     "price":400
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"坦々麺",
     "rarity":"SR",
     "price":300
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"冷やしそば",
     "rarity":"R",
     "price":300
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"冷やしうどん",
     "rarity":"R",
     "price":300
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"ぶっかけおろし冷うどん",
     "rarity":"R",
     "price":300
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"温玉ぶっかけ冷うどん",
     "rarity":"R",
     "price":300
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"冷やし中華",
     "rarity":"R",
     "price":400
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"冷やし坦々麺",
     "rarity":"R",
     "price":400
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"黒ごま冷やし坦々麺",
     "rarity":"R",
     "price":400
-},           {
+},           
+{
     "type":"Rice0",
     "menu":"チキンと野菜のごまだれ冷麺",
     "rarity":"SR",
     "price":500
 },
+
+
+{
+    "type":"Rice1",
+    "menu":"えびカツ卵とじあんかけ",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"ロースとんかつ",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"厚切りヒレカツ",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
+{
+    "type":"Rice1",
+    "menu":"",
+    "rarity":"SSR",
+    "price":0
+},
            
            
            
-           {
+{
     "type":"Side",
     "menu":"豆腐",
     "rarity":"",
     "price":100
 }, 
-           {
+{
     "type":"Side",
     "menu":"納豆",
     "rarity":"N",
     "price":80
-},           {
+},           
+{
     "type":"Side",
     "menu":"エッグマカロニサラダ",
     "rarity":"N",
     "price":80
-},           {
+},           
+{
     "type":"Side",
     "menu":"法蓮草",
     "rarity":"N",
     "price":80
-},           {
+},           
+{
     "type":"Side",
     "menu":"かぼちゃ煮",
     "rarity":"R",
     "price":80
-},           {
+},           
+{
     "type":"Side",
     "menu":"たまご焼き",
     "rarity":"N",
     "price":80
-},           {
+},           
+{
     "type":"Side",
     "menu":"大学芋",
     "rarity":"R",
     "price":80
-},           {
+},           
+{
     "type":"Side",
     "menu":"おくら巣篭り卵",
     "rarity":"N",
     "price":80
-},           {
+},           
+{
     "type":"Side",
     "menu":"巣ごもり卵",
     "rarity":"N",
     "price":100
-},           {
+},           
+{
     "type":"Side",
     "menu":"夏野菜と昆布の和物",
     "rarity":"N",
     "price":80
-},           {
+},           
+{
     "type":"Side",
     "menu":"小松菜と上げの煮浸し",
     "rarity":"N",
     "price":100
-},           {
+},           
+{
     "type":"Side",
     "menu":"ごろごろ野菜炊き合わせ",
     "rarity":"N",
     "price":80
-},           {
+},
+{
     "type":"Side",
     "menu":"青菜と切り干し大根の煮物",
     "rarity":"N",
     "price":80
-},          {
+},
+{
+    "type":"Side",
+    "menu":"照り焼きチキンサラダ",
+    "rarity":"SSR",
+    "price":180
+},
+{
+    "type":"Side",
+    "menu":"チャーシュー野菜サラダ",
+    "rarity":"SSR",
+    "price":180
+},
+{
+    "type":"Side",
+    "menu":"生ハムサラダ",
+    "rarity":"SR",
+    "price":180
+},
+{
+    "type":"Side",
+    "menu":"さわらの西京焼き",
+    "rarity":"SR",
+    "price":180
+},
+{
+    "type":"Side",
+    "menu":"鯖の塩麹竜田揚げ",
+    "rarity":"SR",
+    "price":80
+},
+{
+    "type":"Side",
+    "menu":"おくらベーコン巻天",
+    "rarity":"R",
+    "price":80
+},
+{
+    "type":"Side",
+    "menu":"アジの南蛮漬け",
+    "rarity":"R",
+    "price":120
+},
+{
     "type":"Side",
     "menu":"",
     "rarity":"N",
     "price":80
-},          {
+},
+{
     "type":"Side",
-    "menu":"",
-    "rarity":"N",
+    "menu":"肉団子",
+    "rarity":"R",
+    "price":80
+},
+{
+    "type":"Side",
+    "menu":"チーズクリームコロッケ",
+    "rarity":"R",
+    "price":80
+},
+{
+    "type":"Side",
+    "menu":"海鮮はしまき",
+    "rarity":"R",
+    "price":80
+},
+{
+    "type":"Side",
+    "menu":"チキンレバー生姜煮",
+    "rarity":"R",
+    "price":80
+},
+{
+    "type":"Side",
+    "menu":"男爵コロッケ牛肉入り",
+    "rarity":"R",
+    "price":80
+},
+
+
+{
+    "type":"Dessert",
+    "menu":"フルーツマンゴープリン",
+    "rarity":"SSR",
+    "price":120
+},
+{
+    "type":"Dessert",
+    "menu":"ルビーフルーツゼリー",
+    "rarity":"SR",
+    "price":120
+},
+{
+    "type":"Dessert",
+    "menu":"アセロラジュレのブラマンジェ",
+    "rarity":"SR",
+    "price":120
+},
+{
+    "type":"Dessert",
+    "menu":"フルーツカスタードプリン",
+    "rarity":"SR",
+    "price":120
+},
+{
+    "type":"Dessert",
+    "menu":"白玉抹茶プリン",
+    "rarity":"SR",
+    "price":120
+},
+{
+    "type":"Dessert",
+    "menu":"ブドウのゼーリーナタデココ入り",
+    "rarity":"SR",
+    "price":120
+},
+{
+    "type":"Dessert",
+    "menu":"ふじリンゴのゼリー",
+    "rarity":"SR",
     "price":100
-},         
-           
-           
-           
-           
-           
-           
-           
-           {
+},
+{
+    "type":"Dessert",
+    "menu":"ごろごろパインとレモンゼリー",
+    "rarity":"R",
+    "price":100
+},
+{
+    "type":"Dessert",
+    "menu":"レアクリーム杏仁",
+    "rarity":"R",
+    "price":100
+},
+{
+    "type":"Dessert",
+    "menu":"ライチジュレとマンゴー",
+    "rarity":"R",
+    "price":100
+},
+{
+    "type":"Dessert",
+    "menu":"アセロラゼリー＆フルーツ",
+    "rarity":"R",
+    "price":100
+},
+{
+    "type":"Dessert",
+    "menu":"サイダー＆レモンゼリー",
+    "rarity":"R",
+    "price":100
+},
+{
+    "type":"Dessert",
+    "menu":"ミルク寒天ヨーグルト",
+    "rarity":"R",
+    "price":100
+},
+{
+    "type":"Dessert",
+    "menu":"フルーチェストロベリー",
+    "rarity":"N",
+    "price":80
+},
+{
+    "type":"Dessert",
+    "menu":"フルーチェミックスベリー",
+    "rarity":"N",
+    "price":80
+},
+{
+    "type":"Dessert",
+    "menu":"フルーツヨーグルト",
+    "rarity":"N",
+    "price":80
+},
+{
+    "type":"Dessert",
+    "menu":"チョコミルクプリン",
+    "rarity":"N",
+    "price":80
+},
+
+
+
+
+
+
+
+
+{
     "type":"LimitedTime-Rice0",
     "menu":"サーモンユッケ丼",
     "rarity":"SSR",
     "price":528
 },
-　　　　　　　{
+{
     "type":"LimitedTime-Rice0",
     "menu":"冷やし明太うどん",
     "rarity":"SR",
