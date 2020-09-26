@@ -96,6 +96,18 @@ body #root {
     animation: flip 1s ease 1s forwards;
 }
 
+#card2 {
+    animation: flip 1s ease 2s forwards;
+}
+
+#card3 {
+    animation: flip 1s ease 3s forwards;
+}
+
+#card4 {
+    animation: flip 1s ease 4s forwards;
+}
+
 @keyframes flip {
     from {
         transform: rotateY(0deg);
