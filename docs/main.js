@@ -124,7 +124,6 @@ function onRouteChanged() {
             console.log(clone);
             routerView.appendChild(clone);
             break;
-
         default:
             removeall()
             routerView.innerHTML = "<h1>404 - Page Not Found</h1>";
@@ -132,6 +131,8 @@ function onRouteChanged() {
     }
 }
 
-
+const redirectToHome = () => {
+    location.href = "#home"
+}
 window.addEventListener("hashchange", onRouteChanged);
-window.addEventListener('DOMContentLoaded', onRouteChanged);
+window.addEventListener('DOMContentLoaded', redirectToHome);
