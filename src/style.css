@@ -146,20 +146,85 @@ body #root {
 	width: 100%;
 	transform: translateX(-100%);
 }
-.slide:nth-child(1){
+#card1 > .anime > .slide:nth-child(1){
 	background-color: tomato;
 	animation: lefter 0.2s ease-in 2s forwards;
 }
-.slide:nth-child(2){
+#card1 > .anime >  .slide:nth-child(2){
 	background-color: green;
 	animation: lefter 0.2s ease-in 2.1s forwards;
 
 }
-.slide:nth-child(3){
+#card1 > .anime >  .slide:nth-child(3){
 	background-color: rebeccapurple;
 	animation: lefter 0.2s ease-in 2.2s forwards;
 
 }
+#card1 > .anime >  .slide:nth-child(4){
+	background-color: white;
+	animation: lefter 0.2s ease-in 2.3s forwards;
+
+}
+
+#card2 > .anime > .slide:nth-child(1){
+	background-color: tomato;
+	animation: lefter 0.2s ease-in 3s forwards;
+}
+#card2 > .anime >  .slide:nth-child(2){
+	background-color: green;
+	animation: lefter 0.2s ease-in 3.1s forwards;
+
+}
+#card2 > .anime >  .slide:nth-child(3){
+	background-color: rebeccapurple;
+	animation: lefter 0.2s ease-in 3.2s forwards;
+
+}
+#card2 > .anime >  .slide:nth-child(4){
+	background-color: white;
+	animation: lefter 0.2s ease-in 3.3s forwards;
+
+}
+#card3 > .anime > .slide:nth-child(1){
+	background-color: tomato;
+	animation: lefter 0.2s ease-in 4s forwards;
+}
+#card3 > .anime >  .slide:nth-child(2){
+	background-color: green;
+	animation: lefter 0.2s ease-in 4.1s forwards;
+
+}
+#card3 > .anime >  .slide:nth-child(3){
+	background-color: rebeccapurple;
+	animation: lefter 0.2s ease-in 4.2s forwards;
+
+}
+#card3 > .anime >  .slide:nth-child(4){
+	background-color: white;
+	animation: lefter 0.2s ease-in 4.3s forwards;
+
+}
+#card4 > .anime > .slide:nth-child(1){
+	background-color: tomato;
+	animation: lefter 0.2s ease-in 5s forwards;
+}
+#card4 > .anime >  .slide:nth-child(2){
+	background-color: green;
+	animation: lefter 0.2s ease-in 5.1s forwards;
+
+}
+#card4 > .anime >  .slide:nth-child(3){
+	background-color: rebeccapurple;
+	animation: lefter 0.2s ease-in 5.2s forwards;
+
+}
+#card4 > .anime >  .slide:nth-child(4){
+	background-color: white;
+	animation: lefter 0.2s ease-in 5.3s forwards;
+
+}
+
+
 
 @keyframes lefter {
 	from {

@@ -126,9 +126,12 @@ function onRouteChanged() {
             clone.querySelector('#card1').querySelector('.front').innerText = menus[0].menu;
             clone.querySelector('#card1').querySelector('.rarity').src = `./assets/${menus[0].rarity}.png`;
             clone.querySelector('#card2').querySelector('.front').innerText = menus[1].menu;
+            clone.querySelector('#card2').querySelector('.rarity').src = `./assets/${menus[1].rarity}.png`;
             clone.querySelector('#card3').querySelector('.front').innerText = menus[2].menu;
+            clone.querySelector('#card3').querySelector('.rarity').src = `./assets/${menus[2].rarity}.png`;
             if(menus.length === 4){
                 clone.querySelector('#card4').querySelector('.front').innerText = menus[3].menu;
+                clone.querySelector('#card4').querySelector('.rarity').src = `./assets/${menus[3].rarity}.png`;
             }else{
                 clone.querySelector('#card4').classList.add("transparent")
             }
