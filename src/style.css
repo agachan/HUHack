@@ -1,6 +1,11 @@
+body #root{
+    overflow: hidden;
+    height: 100%;
+}
+
 #top {
     width: 80%;
-    height: 100%;
+    /* height: 100%; */
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -8,7 +13,24 @@
 #title {
     text-align: center;
 }
-#img {
+#img1 {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+#stage1 {
+    top: 0;
+    width: 80%;
+    /* height: 100%; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+#description {
+    text-align: center;
+}
+#img2 {
     display: block;
     text-align: center;
     margin: auto;
