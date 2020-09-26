@@ -88,6 +88,7 @@ const displayMenu = () => {
 
 function onRouteChanged() {
     const hash = window.location.hash;
+    let menu = [];
     console.log(hash)
     const routerView = document.getElementById("root");
 
@@ -115,7 +116,8 @@ function onRouteChanged() {
             var clone = document.importNode(tmp.content, true);
             console.log(clone);
             routerView.appendChild(clone);
-            document.querySelector('#img2').addEventListener('click', displayMenu)
+            menu = selectMenu();
+            // document.querySelector('#img2').addEventListener('click', displayMenu)
             break;
         case "#stage2":
             removeall();
