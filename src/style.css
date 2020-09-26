@@ -228,11 +228,7 @@ body #root {
 }
 
 #sumprice {
-	position: absolute;
-	top: calc(50%);
-	height: 100px;
-	left: calc(50%);
-	width: 400px;
+	/* position: absolute; */
 	font-weight: bold;
 	font-size: x-large;
 	transform: scale(0);
