@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 body #root {
-	overflow: hidden;
 	height: 100%;
 }
 
@@ -83,6 +82,8 @@ body #root {
     left: 0;
   }
 .front {
+	padding: 40px;
+	font-size: medium;
     text-align: center;
     transform: rotateY(180deg);
   background-color: lightblue;
@@ -115,4 +116,45 @@ body #root {
     to {
         transform: rotateY(180deg);
     }
+}
+
+.anime {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	height: 50%;
+	width: 100%;
+	background-color: transparent;
+	z-index: 3;
+	transform: rotateY(180deg);
+	overflow: hidden;
+}
+.slide {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	transform: translateX(-100%);
+}
+.slide:nth-child(1){
+	background-color: tomato;
+	animation: lefter 0.2s ease-in 2s forwards;
+}
+.slide:nth-child(2){
+	background-color: green;
+	animation: lefter 0.2s ease-in 2.1s forwards;
+
+}
+.slide:nth-child(3){
+	background-color: rebeccapurple;
+	animation: lefter 0.2s ease-in 2.2s forwards;
+
+}
+
+@keyframes lefter {
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(0);
+	}
 }
