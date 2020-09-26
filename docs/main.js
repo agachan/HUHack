@@ -88,6 +88,7 @@ const displayMenu = () => {
 
 function onRouteChanged() {
     const hash = window.location.hash;
+    let menus = [];
     console.log(hash)
     const routerView = document.getElementById("root");
 
@@ -115,14 +116,24 @@ function onRouteChanged() {
             var clone = document.importNode(tmp.content, true);
             console.log(clone);
             routerView.appendChild(clone);
-            document.querySelector('#img2').addEventListener('click', displayMenu)
+            // document.querySelector('#img2').addEventListener('click', displayMenu)
             break;
         case "#stage2":
             removeall();
+            menus = selectMenu();
             var tmp = document.querySelector("#stage2page");
             var clone = document.importNode(tmp.content, true);
+            clone.querySelector('#card1').querySelector('.front').innerText = menus[0].menu;
+            clone.querySelector('#card2').querySelector('.front').innerText = menus[1].menu;
+            clone.querySelector('#card3').querySelector('.front').innerText = menus[2].menu;
+            if(menus.length === 4){
+                clone.querySelector('#card4').querySelector('.front').innerText = menus[3].menu;
+            }else{
+                clone.querySelector('#card4').classList.add("transparent")
+            }
             console.log(clone);
             routerView.appendChild(clone);
+            document.querySelector('.front').addEventListener('click', flip);
             break;
         default:
             removeall()
@@ -136,3 +147,8 @@ const redirectToHome = () => {
 }
 window.addEventListener("hashchange", onRouteChanged);
 window.addEventListener('DOMContentLoaded', redirectToHome);
+
+const flip = (e) => {
+    console.log(e.target)
+}
+

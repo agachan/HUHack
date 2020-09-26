@@ -184,27 +184,151 @@ const a = [
 {
     "type":"Rice1",
     "menu":"えびカツ卵とじあんかけ",
-    "rarity":"SSR",
-    "price":0
+    "rarity":"R",
+    "price":330
 },
 {
     "type":"Rice1",
     "menu":"ロースとんかつ",
-    "rarity":"SSR",
-    "price":0
+    "rarity":"R",
+    "price":330
 },
 {
     "type":"Rice1",
     "menu":"厚切りヒレカツ",
-    "rarity":"SSR",
-    "price":0
+    "rarity":"R",
+    "price":330
 },
-           
-           
+{
+    "type":"Rice1",
+    "menu":"鶏ポン唐揚げ",
+    "rarity":"SR",
+    "price":340
+},
+{
+    "type":"Rice1",
+    "menu":"チキン黒胡椒焼",
+    "rarity":"SR",
+    "price":320
+},
+{
+    "type":"Rice1",
+    "menu":"ねぎ塩チキンステーキ",
+    "rarity":"SR",
+    "price":330
+},
+{
+    "type":"Rice1",
+    "menu":"豚肉の生姜焼",
+    "rarity":"R",
+    "price":280
+},
+{
+    "type":"Rice1",
+    "menu":"豚肉と小松菜あっさり炒め",
+    "rarity":"R",
+    "price":380
+},
+{
+    "type":"Rice1",
+    "menu":"ステーキハンバーグ ",
+    "rarity":"R",
+    "price":330
+},
+{
+    "type":"Rice1",
+    "menu":"ハンバーグ照焼ペッパーソース",
+    "rarity":"R",
+    "price":330
+},
+{
+    "type":"Rice1",
+    "menu":"ハンバーグミートソース",
+    "rarity":"N",
+    "price":320
+},
+{
+    "type":"Rice1",
+    "menu":"和風ハンバーグおろしソース",
+    "rarity":"R",
+    "price":280
+},
+{
+    "type":"Rice1",
+    "menu":"豆腐ﾊﾝﾊﾞｰｸﾞ和風おろしソース",
+    "rarity":"R",
+    "price":280
+},
+{
+    "type":"Rice1",
+    "menu":"豆腐ﾊﾝﾊﾞｰｸﾞ柚子あんかけ",
+    "rarity":"SR",
+    "price":330
+},
+{
+    "type":"Rice1",
+    "menu":"ささみカツ卵とじあんかけ",
+    "rarity":"R",
+    "price":330
+},
+{
+    "type":"Rice1",
+    "menu":"チキン竜田甘辛ソース",
+    "rarity":"R",
+    "price":280
+},
+{
+    "type":"Rice1",
+    "menu":"チキン南蛮",
+    "rarity":"SR",
+    "price":330
+},
+{
+    "type":"Rice1",
+    "menu":"カマンベールチキンカツ",
+    "rarity":"R",
+    "price":280
+},
+{
+    "type":"Rice1",
+    "menu":"豚肉とキャベツのスタミナ煮",
+    "rarity":"N",
+    "price":280
+},
+{
+    "type":"Rice1",
+    "menu":"豚肉と厚揚げの中華うま煮",
+    "rarity":"SSR",
+    "price":300
+},
+{
+    "type":"Rice1",
+    "menu":"とろさばの照り焼き",
+    "rarity":"N",
+    "price":180
+},
+{
+    "type":"Rice1",
+    "menu":"銀ひらすの西京焼き",
+    "rarity":"N",
+    "price":180
+},
+{
+    "type":"Rice1",
+    "menu":"氷温熟成鯖の塩焼き",
+    "rarity":"N",
+    "price":220
+},
+{
+    "type":"Rice1",
+    "menu":"銀鮭の塩焼き",
+    "rarity":"N",
+    "price":180
+},           
 {
     "type":"Side",
     "menu":"豆腐",
-    "rarity":"",
+    "rarity":"N",
     "price":100
 }, 
 {
